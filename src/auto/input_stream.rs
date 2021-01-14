@@ -10,8 +10,11 @@ use glib_sys;
 use gobject_sys;
 use std::boxed::Box as Box_;
 use std::fmt;
+#[cfg(any(feature = "v2_44", feature = "dox"))]
+use std::mem;
 use std::pin::Pin;
 use std::ptr;
+use AsyncResult;
 use Cancellable;
 
 glib_wrapper! {

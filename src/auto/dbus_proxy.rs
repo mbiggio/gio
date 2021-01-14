@@ -19,6 +19,7 @@ use std::fmt;
 use std::mem::transmute;
 use std::pin::Pin;
 use std::ptr;
+use AsyncResult;
 use BusType;
 use Cancellable;
 use DBusCallFlags;

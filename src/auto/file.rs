@@ -16,6 +16,7 @@ use std::mem;
 use std::pin::Pin;
 use std::ptr;
 use AppInfo;
+use AsyncResult;
 use Cancellable;
 use DriveStartFlags;
 use FileCopyFlags;

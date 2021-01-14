@@ -6,6 +6,7 @@
 #![allow(clippy::let_and_return)]
 #![allow(clippy::too_many_arguments)]
 #![allow(clippy::type_complexity)]
+#![warn(useless_deprecated)]
 
 #[macro_use]
 extern crate bitflags;
@@ -108,3 +109,6 @@ mod read_input_stream;
 pub use read_input_stream::ReadInputStream;
 mod write_output_stream;
 pub use write_output_stream::WriteOutputStream;
+
+mod task;
+pub use task::*;

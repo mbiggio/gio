@@ -20,6 +20,7 @@ use std::mem;
 use std::mem::transmute;
 use std::pin::Pin;
 use std::ptr;
+use AsyncResult;
 use Cancellable;
 use Credentials;
 use DBusAuthObserver;

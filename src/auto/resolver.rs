@@ -17,6 +17,7 @@ use std::fmt;
 use std::mem::transmute;
 use std::pin::Pin;
 use std::ptr;
+use AsyncResult;
 use Cancellable;
 use InetAddress;
 #[cfg(any(feature = "v2_60", feature = "dox"))]

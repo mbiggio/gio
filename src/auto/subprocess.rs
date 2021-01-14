@@ -14,6 +14,7 @@ use std::boxed::Box as Box_;
 use std::fmt;
 use std::pin::Pin;
 use std::ptr;
+use AsyncResult;
 use Cancellable;
 use InputStream;
 use OutputStream;

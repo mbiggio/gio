@@ -14,6 +14,7 @@ use std::boxed::Box as Box_;
 use std::mem;
 use std::pin::Pin;
 use std::ptr;
+use AsyncResult;
 use BusType;
 use Cancellable;
 use DBusConnection;

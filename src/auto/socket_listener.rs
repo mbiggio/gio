@@ -17,6 +17,7 @@ use std::boxed::Box as Box_;
 use std::fmt;
 use std::mem::transmute;
 use std::ptr;
+use AsyncResult;
 use Cancellable;
 use Socket;
 use SocketAddress;

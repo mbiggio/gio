@@ -21,6 +21,8 @@ use std::ptr;
 use AppInfoCreateFlags;
 use AppLaunchContext;
 #[cfg(any(feature = "v2_50", feature = "dox"))]
+use AsyncResult;
+#[cfg(any(feature = "v2_50", feature = "dox"))]
 use Cancellable;
 use File;
 use Icon;

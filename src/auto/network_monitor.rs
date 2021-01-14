@@ -16,6 +16,7 @@ use std::fmt;
 use std::mem::transmute;
 use std::pin::Pin;
 use std::ptr;
+use AsyncResult;
 use Cancellable;
 #[cfg(any(feature = "v2_44", feature = "dox"))]
 use NetworkConnectivity;
